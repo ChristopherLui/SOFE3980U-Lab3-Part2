@@ -224,7 +224,7 @@ In this section, the MySQL image will be deployed over the GKE cluster using YAM
       ```
       ![MS3 figure4](figures/cl3-4.jpg)      
       
-      It may take some time until the external IP address is changed from pending to a valid IP address. You may need to repeat the previous command.
+      It may take some time until the external IP address is changed from pending to a valid IP address. You may need to repeat the previous command. You can also use the `--watch` flag.
 7. To access the MySQL server using the IP address,
    1. Run the following commands from the GCP console (or any other device on which the MySQL client is installed). Before running the command, replace the **\<IP-address\>** with the external IP obtained in the previous step. The options **-u**, **-p**, and **-h** specify the deployed server's **username**, **password**, and **host IP**, respectively.
       
