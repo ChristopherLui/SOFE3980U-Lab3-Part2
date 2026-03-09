@@ -31,7 +31,7 @@ public class BinaryController {
                 model.addAttribute("result", Binary.add(number1, number2).getValue());
                 return "result";
             default:
-                return "Error";
+                return "error";
         }
     }
 
